@@ -3,3 +3,6 @@ run:
 
 pre-commit-install:
 	@poetry run pre-commit install
+
+teste:
+	@python -m pytest
